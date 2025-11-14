@@ -24,4 +24,4 @@ We hope you enjoy the game.
 
 The development team.
 
-Translated with DeepL.com (free version)
+
