@@ -1,0 +1,17 @@
+Bienvenue dans le jeu Zelda 2 the Adventure of Link!
+
+Ce jeu est un hommage à la célèbre franchise de jeux vidéo Zelda, et plus particulièrement à l'épisode Zelda 2 the Adventure of Link.
+
+Pour jouer, vous aurez besoin d'un terminal ou d'une console qui supporte les caractères spéciaux et les couleurs.
+
+Pour démarrer le jeu, vous aurez besoin de python, exécutez le fichier main.py a l'aide de la commande python3 main.py dans votre terminal.
+
+les touches et la manière de jouer sont directement explicité dans le jeu.
+
+L'affichage passe par l'exécution de séquence d'échappement ANSII.
+
+Pour le bon affichage du jeu, il vous est fortement recommandé de mettre votre terminal en plein écran.
+
+Nous espérons que vous apprécierez ce jeu.
+
+L'équipe de développement.

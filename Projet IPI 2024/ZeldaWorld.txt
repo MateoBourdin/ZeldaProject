@@ -1,0 +1,196 @@
+World
+
+Affichage: (r,g,b)
+Chemin= Space (255,255,100)
+Biome Forêts= t (0,102,0)
+biome plaine= " (128,255,0)
+biome desert= ~ (255,153,51)
+biome village = V (192,192,192)
+Block montagne= # (102,51,0)
+Block eau= - (0,102,204)
+biome grotte = A (192,192,192)
+Joueur = X (0,0,0)
+Temple(Zone d'apparition)= T (192,192,192)  coo(27,27)
+
+-Map
+
+###############--                                                                --
+###############--                 --------------                                ---
+###############--             -----~~~~~~~~~~~~---                            ---~~
+################----     -------~~~~~~~###~~~~~~~---                        ---~~~~
+###################-------~~~~~~~~~~~~~#A#~~~~~~~~~--                      --~~~~A~
+######################~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---                     --~~~~~~
+##      ##############~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---                   --~~~~~~~
+##  V   #############~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---              -----~~~~~~~~
+##         #########~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--            ---~~~~~~~~~~~~
+##          #######~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---      ------~~~~~~~~~~~~~-
+##      ##                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~--    ---~~~~~~~~~~~~~~~~~~-
+## ########ttttttttttttttt         ~~~~~~~~~~~~"""""~~~-------~~~~~~~~~~~~~~~~~~~~-
+## ########ttttttttttttttttttttttt   ~~~~~~~"""""""""""----######A###~~~~~~~~~~~~--
+## ########ttttttttttttttttttttttttt  ~~~"""""""""t""""################~~~~~~~~~~--
+## ########tttttttttttttttttttttttttt               """###################~~~~~~~--
+## ##########tttttttttttttttttttttttt""""""""""""""     ####################~~~~~--
+## ##########ttttttttttttttttttttt""""""""""""""""""""      ttttt############~~~~--
+## ###########tttttttttttttttttt"""""""""""""""""""""  """"   ttttt###A#######~~---
+## ###########ttttttttttttttt"""""""""""""""""""""""  """""""  tttttttt########~-  
+## ###########""""ttttttttt"""""""""""""""""""""""  """"ttt"""  tttttt#########~-  
+## ###########""""""tttt----"""""""""""""""""""""  """"ttttt"""  ttttt######### -  
+## ###########""""""""--------""""""""""""""""""  """ttttttt"""" ttttt######### -  
+##  #########"""""""-------------""""""""""""""  """tttttttt"""" tttt########## -  
+###  #######"""""""------   -------"""""""""""  """tttttttt""""  tttt########## -  
+###   #####""""""""------ T                    """tttttttt""""" tttt########### -  
+##     #####"""""""------   -------""""""""""""""tttttttt"""""V ttt############ -  
+##     ######"""""""-------------""""""""""""""tttttttt"""""""""ttt############ -  
+##     ########"""""""----------""""""""""""""tttttttt#######"""tt############# -- 
+##     #########"""""""""""""""""""""""""""ttttttttt##########""##############ttt- 
+##     ############""""""""""""""####"""""tttttt##############################t"t- 
+##     ###############""""""##################################################ttt- 
+###A####################A######################################################### 
+###################################################################################
+
+-StartTemple
+
+Z=====\\============================\\========//=============D
+Z=====\\============================\\========//=============D
+Z     \\                            \\        //             D
+Z     \\                            \\        //             D
+Z     \\                            \\        //             D
+Z     \\                            \\        //             D
+Z     \\   <>     <o----       <>   \\        //             D
+Z     \\   []     ******       []   \\        //             D
+Z   SSSS+++++++++++++++++++++++++++SSSS       //             D
+ZSSSS+++++++++++++++++++++++++++++++++SSSS   SSSS            D
+ZSS+++++++++++++++++++++++++++++++++++++SSSSSSSSSSSS         D
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+Size(43*12)
+
+-LinkOnFight
+
+O
+N
+
+-LinkAttackRight
+
+,_
+
+
+-LinkAttackLeft
+
+_,
+
+
+_LinkNotInFight
+
+O
+
+-AffichageChemin
+
+D '              '     '           "        '              '     '           "       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D '              '     '           "          '      '      '        '    '        " D
+D   '      '      '        '    '        "    '  '       '        '      '    '      D
+D   '  '       '        '      '    '                '      '        '    '        " D
+D '              '     '           "         '  '       '        '      '    '       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D '              '     '           "        '              '     '           "       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+
+
+-AffichageForet
+
+
+D  #######   #######  ########  ##########    #######   #######  ########  ##########  D
+D##################################################################################### D
+D##################################################################################### D
+D##  ::   ###  ::   ### ::   ###  ::: ########  ::   ###  ::   ### ::   ###  ::: ##### D
+D    ::        ::       ::        :::           ::        ::       ::        :::       D
+D    ::        ::       ::        ::::          ::        ::       ::        ::::      D
+D    ::        ::       ::       :::::          ::        ::       ::       :::::      D
+D    :::       :::      ::       :::::          :::       :::      ::       :::::      D
+D    :::      ::::      :::     :::::::         :::      ::::      :::     :::::::     D
+D   :::::    ::::::    :::::   ::::::::::      :::::    ::::::    :::::   ::::::::::   D
+D::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::D
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+
+
+-AffichagePlaines
+
+D '              '     '           "        '              '     '           "       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D '              '     '           "        '              '     '           "       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D '              '     '           "        '              '     '           "       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D ' "   """"     ""     "    " """   ""   " ' "   """"     ""     "    " """   ""   "D
+D""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""D
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+
+-AffichageDesert
+
+D '              '     '           "        '              '     '           "       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D '              '     '           "        '              '     '           "       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D '              '     '           "        '              '     '           "       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D ' Z   ZZ Z     Z      Z    Z  ZZ   ZZ   Z ' Z   ZZ Z     Z      Z    Z  ZZ   ZZ   ZD
+D"""Z"""ZZ"Z"""""Z""""""Z""""Z""ZZ"""ZZ"""Z"""Z"""ZZ"Z"""""Z""""""Z""""Z""ZZ"""ZZ"""ZD
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+
+-AffichageVillage1
+
+D '              '     '           "         '              '     '           "        D
+D   '      '      '        '    '        "     '      '      '        '    '        "  D
+D   '  '       '        '      '    '          '  '       '        '      '    '       D
+D '              '     '           "         '              '     '           "        D
+D   '      '      '        '    '        "     '      '      '        '    '        "  D
+D   '  '       '        '      '    '          '  '       '        '      '    '       D
+D '              '     '           "         '              '     '           "        D
+D   '      '      '        '    '        "     '      '      '        '    '        "  D
+D   ////\\\    ///\\   ////\\\\   ///\\        ////\\\    ///\\   ////\\\\   ///\\     D
+D ' MMMMM=M    MMMMM   MMMMM=MM   MMMMM      ' MMMMM=M    MMMMM   MMMMM=MM   MMMMM     D
+D"""MMMMM=M""""MMMMM"""MMMMM=MM"""MMMMM""""""""MMMMM=M""""MMMMM"""MMMMM=MM"""MMMMM"""""D
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+
+-AffichageVillage2
+
+D '              '     '           "        '              '     '           "         D
+D   '      '      '        '    '        "     '      '      '        '    '        "  D
+D   '  '       '        '      '    '          '  '       '        '      '    '       D
+D '              '     '           "         '              '     '           "        D
+D   '      '      '        '    '        "     '      '      '        '    '        "  D
+D   '  '       '        '      '    '          '  '       '        '      '    '       D
+D '              '     '           "         '              '     '           "        D
+D   '      '      '        '    '        "     '      '      '        '    '        "  D
+D   ////\\\    ///\\   ////\\\\   ///\\        ////\\\    ///\\   ////\\\\   ///\\     D
+D ' =====-=    =====   =====-==   =====      ' =====-=    =====   =====-==   =====     D
+D"""=====-=""""====="""=====-=="""=====""""""""=====-=""""====="""=====-=="""====="""""D
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+
+-AffichageGrotte
+
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+DZZZZ   ZZZZZZ  ZZZZZ   ZZZZZ    ZZZZZZ  ZZZZZZ   ZZZZZZ  ZZZZZ   ZZZZZ    ZZZZZZ  ZZD
+DZZ      ZZZZ    ZZ       ZZ       ZZZ     ZZ      ZZZZ    ZZ       ZZ       ZZZ     D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D '              '     '           "        '              '     '           "       D
+D   '      '      '        '    '        "    '      '      '        '    '        " D
+D   '  '       '        '      '    '         '  '       '        '      '    '      D
+D ZZZ   ZZZZ     ZZ     Z    Z ZZZ   ZZ   Z ZZZ   ZZZZ     ZZ     Z    Z ZZZ   ZZ   ZD
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+DZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZD
+
+
+
